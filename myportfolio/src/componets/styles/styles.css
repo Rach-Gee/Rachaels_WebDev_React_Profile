@@ -109,6 +109,9 @@ aside img {
 }
 
 /*MAIN*/
+.title {
+    margin: 20px;
+}
 
 section {
     padding-bottom: 35px;
@@ -139,25 +142,6 @@ p{
 .work{
     border-left-style: solid;
     border-color: var(--green);
-}
-
-section .contactinfo {
-    margin-left: 52px;
-}
-
-.contactinfo h2{
-    border-right-style: solid;
-    border-color: var(--green);
-}
-
-.contactinfo ul{
-    list-style: none;
-}
-
-.contactinfo ul li{
-    list-style-type: none;
-    text-align: left;
-    margin-left: -20px;
 }
 
 #phone::before {
@@ -218,6 +202,16 @@ a:link {
     right: auto;
   }
 
+#linkedIn {
+    background-image: url(https://linkedin.com/in/rachael-giancristofaro-32ab38204);
+    color: blue;
+    padding-right: 20px;
+}
+
+#GitHub {
+    color: gray;
+}
+
 /* FOOTER */
 
 .footer{
@@ -230,6 +224,58 @@ a:link {
     width: 100%;
 }
 
+.footerList{
+    display: flex;
+    justify-content: center;
+    background-color: var(--green);
+    font-size: 25px;
+    list-style-type: none;
+}
+
+.footerList li a{
+    background-color: var(--green);
+    list-style-type: none;
+}
+
+.footerList li {
+    background-color: var(--green);
+    list-style-type: none;
+}
+
+.footerList #linkedIn a:visited {
+    color: blue;
+}
+
+.footerList #linkedIn a:link {
+    color: blue;
+}
+
+.footerList #GitHub a:visited {
+    color: gray;
+}
+
+.footerList #GitHub a:link {
+    color: gray;
+}
+
+.contactInfo li{
+    display: flex;
+    font-size: 25px;
+    list-style-type: none;
+}
+
+.form-group {
+    border: black solid;
+    border-radius: 20px;
+    width: 50%;
+    margin-left: 50px;
+    padding: 20px;
+    font-size: 30px;
+}
+
+.imput {
+    border-radius: 6px;
+}
 /* MEDIA QUERY */
 
 @media screen and (max-width: 1500px) {
@@ -260,7 +306,6 @@ a:link {
     
 }
 
-
 @media screen and (min-width: 1109px) {
     header h1 {
         display: inline;
@@ -272,15 +317,8 @@ a:link {
 }
 
 @media screen and (min-width: 1500px) {
-    .contactinfo ul li{
-        list-style-type: none;
-        display: inline;
-        text-align: left;
-        float: center;
-        margin-left: 3%;
-    }
-    
-    section h2{
+ 
+section h2{
         left: 0;
         width: 250px;
         position: absolute;

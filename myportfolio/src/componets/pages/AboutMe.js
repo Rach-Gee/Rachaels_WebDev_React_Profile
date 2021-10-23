@@ -8,7 +8,7 @@ export default function AboutMe() {
           <img src={me} alt="Profile of Rachael Giancristofaro" />
           <div>Dream Bigger</div>
       </aside>
-      <h2 Class="title" >About Me</h2>
+      <h2 className="title" >About Me</h2>
       <br />
       <p>I am a driven, professional individual eager to break into web development.
                 Currently working as a Payroll Systems Analyst where I got my first taste of programming.

@@ -5,7 +5,7 @@ export default function Resume() {
         <div>
         <h2 id="aboutme">Resume</h2>
             <ul>
-                <li class="fa fa-file-pdf-o"> <a href="./Assets/Rachael_Giancristofaro_Resume.pdf"
+                <li className="fa fa-file-pdf-o"> <a href="./Assets/Rachael_Giancristofaro_Resume.pdf"
                 download target="blank">Download Rachaels Resume</a></li>
             </ul>
       </div>
