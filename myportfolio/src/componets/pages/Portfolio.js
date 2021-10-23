@@ -6,11 +6,10 @@ import generate from "../images/Generate_Password.PNG"
 
 export default function Portfolio() {
     return (
-        <section>
-            <section className="work">
-                <h2 classNameName="title">My Work </h2><br /><br />
+            <section>
+                <h2 className="title1">My Work </h2><br /><br /><br />
                 <div className="row">
-                    <div className="col s12 m12">
+                    <div className="smallerCard col s12 m12">
                         <div className="card">
                             <div className="card-image">
                                 <a href="https://rach-gee.github.io/Hero-Attributes-and-Gif-generator/"
@@ -71,6 +70,5 @@ export default function Portfolio() {
                     </div>
                 </div>
             </section>
-        </section>
     );
   }

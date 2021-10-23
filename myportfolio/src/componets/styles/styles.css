@@ -109,7 +109,7 @@ aside img {
 }
 
 /*MAIN*/
-.title {
+.title1 {
     margin: 20px;
 }
 
@@ -137,11 +137,6 @@ p{
 
 .opacity:hover{
     Opacity: 0.4
-}
-
-.work{
-    border-left-style: solid;
-    border-color: var(--green);
 }
 
 #phone::before {
@@ -210,6 +205,13 @@ a:link {
 
 #GitHub {
     color: gray;
+}
+
+#pdf {
+    color: red;
+}
+.resumeHolder {
+    margin: 20px;
 }
 
 /* FOOTER */

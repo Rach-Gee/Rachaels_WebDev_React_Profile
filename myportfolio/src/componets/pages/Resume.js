@@ -1,11 +1,12 @@
 import React from "react";
+import PDF from "../images/PDF.png"
 
 export default function Resume() {
     return (
         <div>
-        <h2 id="aboutme">Resume</h2>
-            <ul>
-                <li className="fa fa-file-pdf-o"> <a href="./Assets/Rachael_Giancristofaro_Resume.pdf"
+        <h2 className="title1">Resume</h2>
+            <ul className="resumeHolder">
+                <li className="fa fa-file-pdf-o" id="pdf"> <a href={PDF}
                 download target="blank">Download Rachaels Resume</a></li>
             </ul>
       </div>
