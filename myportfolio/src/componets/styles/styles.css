@@ -1,0 +1,321 @@
+/* GENERAL STYLES */
+
+/* GENERAL STYLES */
+
+:root {
+    --blush: #ddaf94;
+    --lightblush: #E8CEBF;
+    --green: #266150;
+    --dark: #4F4846;
+    --offwhite: #FDF8F5;
+    --white: white;
+}
+
+* {
+    background: var(--offwhite);
+}
+
+/* HEADER */
+
+header {
+    font-family: 'Audrey', serif, sans-serif;
+    font-size: 30px;
+    background: var(--blush);
+    color: var(--white);
+    padding: 20px 20px 20px 0;
+}
+
+header h1 {
+    margin-right: 65%;
+    background: var(--lightblush);
+    min-width: 200px;   
+    font-size: 48px;
+    margin-right: 25px;
+    padding: 2px 50px 2px 0;
+}
+
+header nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    background: var(--blush);
+}
+
+header nav ul {
+    list-style-type: none;
+    background: var(--blush);
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-left: 25px; 
+}
+
+header nav ul li a {
+    color: var(--lightblush);
+    background: var(--blush);
+}       
+
+header nav ul li a:hover {
+    color: var(--white);
+    background: var(--blush);
+}       
+
+nav a:visited {
+    color: var(--lightblush);
+}
+
+nav a:link {
+    color: var(--lightblush);
+}
+
+/* ASIDE */
+
+aside { 
+    display: flex;
+    flex-wrap: 1;
+    width: 100%;
+    align-items: flex-start;
+    height: 600px;
+    background-image: url("https://www.controlnetworks.com.au/wp-content/uploads/2019/08/Small-Business-Web-Development-1042x665.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 0;
+}
+
+aside div {
+    position: absolute;
+    flex-wrap: 1;
+    background: none;
+    left: 10%;
+    font-style: italic;
+    font-family: cursive;
+    font-size: 65px;
+    text-align: center;
+    color: var(--white);
+    padding-top: 15px;
+}
+
+
+aside img {
+    border-color: black;
+    margin: 20px;
+    padding: 15px;
+    width: 130px;
+    height: 200px;
+    box-shadow: 10px 10px 5px grey;
+}
+
+/*MAIN*/
+
+section {
+    padding-bottom: 35px;
+}
+
+section h2{
+    left: 0;
+    position: absolute;
+    color: var(--dark);
+    font-size: xx-large;
+    text-align: end;
+    padding-right: 10px;
+}
+
+p{
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    border-left-style: solid;
+    border-color: var(--green);
+    margin-left: 9%;
+}
+
+.opacity:hover{
+    Opacity: 0.4
+}
+
+.work{
+    border-left-style: solid;
+    border-color: var(--green);
+}
+
+section .contactinfo {
+    margin-left: 52px;
+}
+
+.contactinfo h2{
+    border-right-style: solid;
+    border-color: var(--green);
+}
+
+.contactinfo ul{
+    list-style: none;
+}
+
+.contactinfo ul li{
+    list-style-type: none;
+    text-align: left;
+    margin-left: -20px;
+}
+
+#phone::before {
+    content: "\1F4DE"
+}
+
+#email::before {
+    content: "\1F4E7"
+}
+
+#PDF::before {
+    content: "\1F4C3"
+}
+
+.card-title {
+    background-color: var(--offwhite);
+    margin-bottom: 3%;
+}
+
+#textcolor{
+    color: black;
+    font-family: 'Audrey', serif, sans-serif;
+}
+
+#margin{
+    padding: 5px;
+    background-color: lightgray;
+}
+
+a:visited {
+    color: black;
+}
+
+a:link {
+    color: black;
+}
+
+.card .card-image .card-title1 {
+    position: absolute;
+    max-width: 50%;
+    padding: 12px;
+    font-size: 14px; 
+    border: solid lightgrey;
+}
+
+.card .card-image .card-title {
+    border: solid lightgrey;
+}
+
+.fa {
+    display: block !important;
+}
+
+.row .col.s6 {
+    width: 100%;
+    margin-left: auto;
+    left: auto;
+    right: auto;
+  }
+
+/* FOOTER */
+
+.footer{
+    margin-top: 1rem;
+    padding: 1rem;
+    background-color: var(--green);
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+/* MEDIA QUERY */
+
+@media screen and (max-width: 1500px) {
+    aside div {
+        font-size: 40px;
+        left: 43%;
+    }
+    .myworkbox, .contactinfo {
+        margin-left: 100px;
+    }
+    .section h2 {
+        width: 0px;
+        margin-left: 0%;
+    }
+
+    
+    .card .card-image .card-title {
+        font-size: 15px;
+        font-weight: 300;
+    }
+
+    .card .card-image .card-title {
+        font-size: 8px;
+        font-weight: 300;
+        padding: 2px
+    }
+    
+    
+}
+
+
+@media screen and (min-width: 1109px) {
+    header h1 {
+        display: inline;
+    }
+    
+    header nav {
+        float: right;
+    }
+}
+
+@media screen and (min-width: 1500px) {
+    .contactinfo ul li{
+        list-style-type: none;
+        display: inline;
+        text-align: left;
+        float: center;
+        margin-left: 3%;
+    }
+    
+    section h2{
+        left: 0;
+        width: 250px;
+        position: absolute;
+        color: var(--dark);
+        font-size: xx-large;
+        text-align: end;
+        padding-right: 10px;
+    }
+    
+    p {
+        margin: 20px 0 15px 100px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+        border-left-style: solid;
+        border-color: var(--green);
+    }
+    
+    .myworkbox  {
+        margin-left: 260px;
+        width: 50%;
+        height: 10%;
+    }
+
+    .title {
+        margin: 20px;
+    }
+
+    .fa {
+        display: inline !important;
+    }
+
+    .row .col.s6 {
+        width: 50%;
+        margin-left: auto;
+        left: auto;
+        right: auto;
+      }
+}
