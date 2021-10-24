@@ -21,11 +21,12 @@ Welcome to Rachael's React Portfolio. I have refactored my portfolio into a Reac
 ## Installation
        
 To utalise this app navigate to https://rach-gee.github.io/Rachaels_WebDev_React_Profile/.
-
        
 ## Usage
        
 This page was designed to show case my work. I hope you enjoy! 
+
+![image](https://user-images.githubusercontent.com/83891242/138576247-5ae490c3-cde6-4bd2-9fd4-b4ef1fef8535.png)
 
 ## License
 
