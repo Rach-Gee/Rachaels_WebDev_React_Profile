@@ -1,6 +1,6 @@
 ![MIT_License](https://img.shields.io/badge/MIT_License-License-green)
   
-# Budget_Tracker_by_RG
+# Rachaels_WebDev_React_Profile
 
 ## Overview
         
